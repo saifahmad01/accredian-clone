@@ -111,3 +111,14 @@ export const SOLUTIONS = [
     iconBg: "bg-cyan-500/10",
   },
 ] as const;
+
+export const TRUST_LOGOS = [
+  "Google",
+  "Microsoft",
+  "Amazon",
+  "Flipkart",
+  "Infosys",
+  "Wipro",
+  "TCS",
+  "Deloitte",
+] as const;
