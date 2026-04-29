@@ -1,7 +1,3 @@
-// =============================================================================
-// Lead Capture Form — handles contact/demo request submissions
-// Client component for controlled form state + fetch to API route
-// =============================================================================
 "use client";
 
 import { useState } from "react";

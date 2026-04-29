@@ -1,19 +1,15 @@
-// =============================================================================
-// Home Page
-// Assembles all the individual sections into the final landing page
-// =============================================================================
 import Hero from "@/components/sections/Hero";
-import CTASection from "@/components/sections/CTASection";
 import Solutions from "@/components/sections/Solution";
+import CTASection from "@/components/sections/CTASection";
+import TrustBanner from "@/components/sections/TrustBanner";
 
-
-export default function Home() {
+export default function HomePage() {
   return (
-    <>
+    <main>
       <Hero />
       <Solutions />
+      <TrustBanner />
       <CTASection />
-      
-    </>
+    </main>
   );
 }

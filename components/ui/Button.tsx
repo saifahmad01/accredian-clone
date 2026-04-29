@@ -1,8 +1,3 @@
-// =============================================================================
-// Reusable Button component with variant support
-// Uses a discriminated union pattern for type safety across variants
-// =============================================================================
-
 import Link from "next/link";
 
 type ButtonVariant = "primary" | "secondary" | "outline" | "ghost";
