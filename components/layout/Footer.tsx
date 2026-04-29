@@ -72,7 +72,7 @@ function FooterColumn({
   links,
 }: {
   title: string;
-  links: { label: string; href: string }[];
+  links: readonly { label: string; href: string }[]; // ✅ FIX
 }) {
   return (
     <div>
